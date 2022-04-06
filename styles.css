@@ -1,16 +1,16 @@
 
-/* Existe duas formas que funciona para deixar a imagem ao centro, esta é uma das opções*/
  
+body {
+    font-family: 'Open Sans', sans-serif;
 
-.image {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-} 
-/* .hero img{
-    display: flex;
-    margin: 0 auto;
-} */
+    text-align: center;
+}
+
+#hero {
+    width: 592px;
+    margin: auto;
+}
+
 
 .title {
     display: flex;
@@ -21,10 +21,21 @@
 
 h1 {
     font-family: 'Inter', sans-serif;
+    font-size: 49px;
+    line-height: 56px;
+    font-weight: normal;
 }
 
-body {
-    font-family: 'Open Sans', sans-serif;
+h1 span {
+    font-weight: bold;
+}
 
+p {
+    color: #7D7987;
+
+}
+
+span, a {
+    color: #FF9900
 }
 
